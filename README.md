@@ -55,24 +55,32 @@ GitDNA uses GitHub's free public REST API (no authentication required):
 
 - **Frontend:** React + TypeScript + Tailwind CSS
 - **API:** GitHub REST API (public, no auth)
-- **Build Tool:** Lovable (AI-powered app builder)
 - **Card Export:** html2canvas
-- **Hosting:** Lovable / Vercel
-- **Background Animation:** Canvas-based constellation particle network with mouse interaction
+- **Animation:** Framer Motion + Canvas-based constellation particle network
+- **Build Tool:** Vite
 
 ---
 
 ## Features
 
-- **Archetype Scoring Engine** — multi-factor scoring system (not simple if/else) evaluates language diversity, repo quality, contribution patterns, and documentation habits
-- **Crown Jewel Detection** — custom formula weighing stars, forks, recency, description quality, and topics to find each developer's best project
+- **Archetype Scoring Engine** — multi-factor scoring system evaluates language diversity, repo quality, contribution patterns, and documentation habits simultaneously across all 9 archetypes
+- **Crown Jewel Detection** — custom formula weighing stars, forks, recency, description quality, and topics to surface each developer's best project
 - **Dynamic Card Theming** — each archetype has its own accent color that tints the avatar ring, card glow, archetype banner, and stat highlights
 - **Language Visualization** — horizontal segmented bar using GitHub's official language colors
 - **Downloadable PNG Cards** — high-resolution card export with base64 avatar embedding to solve CORS issues
-- **Interactive Constellation Background** — animated particle network with mouse-reactive behavior
+- **Interactive Constellation Background** — animated particle network with mouse-reactive behavior and parallax depth
 - **Animated Logo** — Git-branch-to-DNA-helix animation with flowing strands and pulsing commit dots
 - **Responsive Design** — works on desktop and mobile
 - **No Login Required** — uses only GitHub's public API endpoints
+
+---
+
+## Screenshots
+
+<!-- Add your screenshots here -->
+<!-- ![Deep Specialist](./screenshots/torvalds.png) -->
+<!-- ![Prolific Shipper](./screenshots/sindresorhus.png) -->
+<!-- ![Weekend Warrior](./screenshots/octocat.png) -->
 
 ---
 
@@ -80,8 +88,8 @@ GitDNA uses GitHub's free public REST API (no authentication required):
 
 ```bash
 # Clone the repo
-git clone https://github.com/VChoukwale/gitdna.git
-cd gitdna
+git clone https://github.com/VChoukwale/gitdna-developer-identity.git
+cd gitdna-developer-identity
 
 # Install dependencies
 npm install
@@ -90,7 +98,7 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser.
+Open `http://localhost:8080` in your browser.
 
 ---
 
@@ -100,18 +108,12 @@ GitDNA uses GitHub's public API without authentication, which allows 60 requests
 
 ---
 
-## Project Background
-
-Built in under 2 hours at **AI Side Hustle Night** hosted by AI Coalition at Klaviyo HQ, Boston (March 19, 2026). The entire app was created using Lovable's AI-powered development platform with iterative prompt engineering.
-
----
-
 ## Author
 
 **Vaishnavi Choukwale**
 - GitHub: [@VChoukwale](https://github.com/VChoukwale)
 - LinkedIn: [Vaishnavi Choukwale](https://www.linkedin.com/in/vaishnavi-choukwale/)
-- Email: choukwale.v@northeastern.edu
+- Email: vaishnavichoukwale1912@gmail.com
 
 ---
 
