@@ -4,7 +4,7 @@ GitDNA analyzes any public GitHub profile and generates a beautiful, shareable D
 
 > Think Spotify Wrapped, but for developers.
 
-🔗 **Live Demo:** [gitdna.app](https://git-dna.lovable.app)
+🔗 **Live Demo:** [git-dna.lovable.app](https://git-dna.lovable.app)
 
 ---
 
