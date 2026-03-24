@@ -76,19 +76,24 @@ GitDNA uses GitHub's free public REST API (no authentication required):
 ---
 
 ## Screenshots
+<img width="560" height="851" alt="GitDNA Landing Page" src="https://github.com/user-attachments/assets/dd8fdcfc-45c2-47e3-af66-29102ffeab21" />
+<img width="588" height="894" alt="The Open Source Champion" src="https://github.com/user-attachments/assets/a032d414-a0f0-4e88-afd7-1774876e7b71" />
+<img width="574" height="866" alt="The Full Stack Alchemist" src="https://github.com/user-attachments/assets/67ac4485-9460-4d93-a265-784c4b3ad02d" />
+<img width="582" height="870" alt="The Polyglot Wanderer" src="https://github.com/user-attachments/assets/c7054884-b0b6-4be3-8f1e-7a46c7079523" />
+<img width="525" height="893" alt="The Architect" src="https://github.com/user-attachments/assets/e208c11e-7021-4ad0-aa6e-192f5ace1035" />
+<img width="584" height="876" alt="The Deep Specialist" src="https://github.com/user-attachments/assets/47b7ef0c-3682-49f2-951d-9a32bef2ad17" />
+<img width="1160" height="1980" alt="gitdna-kadbond007" src="https://github.com/user-attachments/assets/24b34bf9-0cc8-498b-8b7d-50cf5f6c4f49" />
+<img width="561" height="853" alt="The Curious Builder" src="https://github.com/user-attachments/assets/9fa7f487-fe1b-4c5d-b6a2-6e1642287ce4" />
 
-<!-- Add your screenshots here -->
-<!-- ![Deep Specialist](./screenshots/torvalds.png) -->
-<!-- ![Prolific Shipper](./screenshots/sindresorhus.png) -->
-<!-- ![Weekend Warrior](./screenshots/octocat.png) -->
 
 ---
+
 
 ## Run Locally
 
 ```bash
 # Clone the repo
-git clone https://github.com/VChoukwale/gitdna-developer-identity.git
+git clone repository
 cd gitdna-developer-identity
 
 # Install dependencies
@@ -99,12 +104,6 @@ npm run dev
 ```
 
 Open `http://localhost:8080` in your browser.
-
----
-
-## API Rate Limits
-
-GitDNA uses GitHub's public API without authentication, which allows 60 requests per hour. Each profile decode uses approximately 3-5 API calls (profile + repos + language details for top repos). For higher limits, you can add a GitHub personal access token in the environment config.
 
 ---
 
